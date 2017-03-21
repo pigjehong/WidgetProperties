@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.appcrate38.widgetproperties.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical"
+    >
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:background="#343554"
+        android:padding="15dp"
+        android:text="@string/but_str1"
+        android:textColor="#fcfcfc"
+        android:textSize="20sp"
+        android:layout_weight="0.20"
+        android:visibility="visible"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.20"
+        android:background="#343554"
+        android:padding="15dp"
+        android:text="@string/but_str1"
+        android:textColor="#fcfcfc"
+        android:textSize="20sp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.20"
+        android:background="#343554"
+        android:padding="15dp"
+        android:text="@string/but_str1"
+        android:textColor="#fcfcfc"
+        android:textSize="20sp"
+
+        />
+
+</LinearLayout>
